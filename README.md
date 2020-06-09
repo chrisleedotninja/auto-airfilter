@@ -36,7 +36,12 @@ This is a fairly basic Arduino project. We monitor the readings from the dust se
   - White coming in from the wall to the silver post on outlet
   - Black coming in from the wall, to the relay, then to brass post on outlet.
 
-###  Grab the code from the .ino file and push it to your Arduino... it should warm up for 4 seconds then display your PM numbers. There are 2 settings you can play with in the file... Threshold and Fan Timeout... set those to numbers you find reasonable. 
+### Arduino  
+- Add the following libraries to your Arduino IDE:
+  - Adafruit SSD1306 (for oled)
+  - Adafruit GFX Library (for oled)
+  - PMS Library (For Dust sensor)
+- Grab the code from the .ino file and push it to your Arduino... it should warm up for 4 seconds then display your PM numbers. There are 2 settings you can play with in the file... Threshold and Fan Timeout... set those to numbers you find reasonable. 
 
 
 ## Disclaimer
