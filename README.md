@@ -1,7 +1,9 @@
 # Auto Air Filtration
 
 ## What is it?
-It's an Arduino connected to a dust sensor that turns on a relay when the sensor detects PM2.5 particles higher than a set threshold. 
+It's an Arduino connected to a dust sensor that turns on a relay when the sensor detects PM2.5 particles higher than a set threshold. The relay should be hooked up to some sort of Aircleaner.
+
+ ![Project Collage](auto-aircleaner.jpg)
 
 ## Parts needed?
 - [Arduino Nano](https://amzn.to/30k7ogw) (Could probably use any Arduino.)
